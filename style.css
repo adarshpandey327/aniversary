@@ -146,7 +146,7 @@ main {
     }
   }
   .item {
-    width: 18vw; /* Adjusted width for smaller screens */
+    width: 20vw; /* Adjusted width for smaller screens */
     height: 28vh; /* Adjusted height for smaller screens */
 
     &:nth-child(3) { left: 50%; }
