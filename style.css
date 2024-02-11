@@ -136,18 +136,18 @@ main {
 @media (min-width: 650px) and (max-width: 900px) {
   .content {
     & .title {
-      font-size: 1.1em; 
+      font-size: 1rem; 
     }
     & .description {
-      font-size: 0.75em; /* Use em for relative scaling */
+      font-size: 0.75rem; /* Use em for relative scaling */
     }
     & button {
-      font-size: 0.75em; /* Use em for relative scaling */
+      font-size: 0.75rem; /* Use em for relative scaling */
     }
   }
   .item {
     width: 20vw; /* Adjusted width for smaller screens */
-    height: 28vh; /* Adjusted height for smaller screens */
+    height: 30vh; /* Adjusted height for smaller screens */
 
     &:nth-child(3) { left: 50%; }
     &:nth-child(4) { left: calc(50% + 18vw); } /* Updated calculation */
