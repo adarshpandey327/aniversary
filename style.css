@@ -159,18 +159,18 @@ main {
 @media (width < 650px) {
   .content {
     & .title {
-      font-size: 0.95em;
+      font-size: 0.95rem;
     }
     & .description {
-      font-size: 0.65em; 
+      font-size: 0.65rem; 
     }
     & button {
-      font-size: 0.7em;
+      font-size: 0.7rem;
     }
   }
   .item {
-    width: 15vw;
-    height: 24vh;
+    width: 18vw;
+    height: 28vh;
 
     &:nth-child(3) { left: 50%; }
     &:nth-child(4) { left: calc(50% + 15vw); } /* Updated calculation */
